@@ -16,10 +16,6 @@ public class Cuenta {
   private static final int MAX_DEPOSITOS_DIARIOS = 3;
   private static final double LIMITE_EXTRACCION_DIARIA = 1000;
 
-  public Cuenta() {
-    saldo = 0;
-  }
-
   public Cuenta(double montoInicial) {
     saldo = montoInicial;
   }
